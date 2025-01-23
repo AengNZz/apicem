@@ -1,0 +1,34 @@
+@import 'fonts';
+
+:root {
+	--bs-font-family: 'Geologica', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		sans-serif;
+	--bs-font-size: 18px;
+	--bs-font-weight: 400;
+	--bs-line-height: 22.5px;
+
+	--bs-font-color: var(--dark-color);
+	--bs-transition: 0.3s ease-in-out;
+	--bs-radius: 32px;
+
+	--primary-color: #000099;
+	--primary-dark-color: #000066;
+
+	--gray-color: #a0a0a0;
+	--gray-light-color: #d4d4d4;
+	--gray-dark-color: #505050;
+
+	--light-color: #fff;
+	--dark-color: #000;
+	--dark-medium-color: #262a30;
+
+	--bs-linear-dark-gradient: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.6) 0%,
+		rgba(0, 0, 0, 0.5) 42.69%,
+		rgba(0, 0, 0, 0.02) 76.84%,
+		rgba(255, 255, 255, 0) 85.37%
+	);
+
+	--bs-box-shadow: 0px 2px 2px 0px #00003333;
+}

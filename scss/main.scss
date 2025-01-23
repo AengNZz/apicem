@@ -1,0 +1,26 @@
+@use 'sass:math';
+
+// Fonts
+// @import "config/fonts";
+
+// Variables
+@import 'config/root';
+@import 'config/vars';
+
+// Functions, Mixins, and Placeholders
+@import 'config/functions';
+@import 'config/mixins';
+@import 'config/placeholders';
+
+// Reset styles
+@import 'config/reset';
+
+// Libraries (uncomment to use)
+// @import 'libs/aos';
+// @import 'libs/swiper';
+
+// Custom scrollbar
+@import 'config/scrollbar';
+@import 'config/base';
+@import 'libs/swiper-bundle.min';
+@import 'config/common';

@@ -1,0 +1,9 @@
+$main-offset: 24;
+
+$max-width: 1920;
+$min-width: 320;
+$container-width: 1520;
+
+$max-width-container: $container-width + ($main-offset * 2);
+$header-height: 174;
+$footer-height: 331;
